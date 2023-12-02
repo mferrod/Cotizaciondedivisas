@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Compraventadivisas</string>
+    <string-array name="divisas">
+        <item>Euro</item>
+        <item>Dolar</item>
+        <item>GBP</item>
+    </string-array>
+</resources>

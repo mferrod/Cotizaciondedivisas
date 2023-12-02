@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00BCD4"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvLinear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Compra venta de divisas"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvDivisaB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Divisa Base"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:translationY="50dp" />
+
+    <Spinner
+        android:id="@+id/spinnerDBase"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:translationY="65dp" />
+
+    <TextView
+        android:id="@+id/tvDivisaC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Divisa Cotizada"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:translationY="115dp" />
+
+    <Spinner
+        android:id="@+id/spinnerDCotizada"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:translationY="133dp" />
+
+    <TextView
+        android:id="@+id/tvResDivi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:translationY="183dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:translationY="200dp"
+        tools:srcCompat="@drawable/_5979409_icono_de_cambio_de_divisas_ilustraci_n_el_concepto_de_las_operaciones_de_divisas_entre_el_d_lar_y" />
+
+    <Button
+        android:id="@+id/buttonCalc"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:translationX="135dp"
+        android:translationY="325dp" />
+
+    <EditText
+        android:id="@+id/editTextCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:translationY="370dp" />
+
+    <TextView
+        android:id="@+id/tvTCompra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total compra: "
+        android:translationY="440dp" />
+
+    <TextView
+        android:id="@+id/tvTVenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Venta: "
+        android:translationY="470dp" />
+</FrameLayout>
